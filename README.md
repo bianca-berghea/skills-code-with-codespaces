@@ -62,7 +62,6 @@ Let's customize some settings in the `devcontainer.json` file!
          ]
      }
  }
-    }
    ```
 
 1. Click **Commit changes** and then select **Commit changes directly to the `main` branch**.
