@@ -48,6 +48,20 @@ Let's customize some settings in the `devcontainer.json` file!
                 "codespace.md"
             ]
         }
+         ,
+ // Add the IDs of extensions you want installed when the container is created.
+ "customizations": {
+     "vscode": {
+         "extensions": [
+             "GitHub.copilot"
+         ]
+     },
+     "codespaces": {
+         "openFiles": [
+             "codespace.md"
+         ]
+     }
+ }
     }
    ```
 
